@@ -1,20 +1,5 @@
 # Cart Service - Complete Specification
 
-## Table of Contents
-1. [Overview](#overview)
-2. [Technology Stack](#technology-stack)
-3. [System Architecture](#system-architecture)
-4. [Data Models](#data-models)
-5. [Database Schema](#database-schema)
-6. [API Specification](#api-specification)
-7. [Event-Driven Architecture](#event-driven-architecture)
-8. [Docker & Containerization](#docker--containerization)
-9. [Environment Configuration](#environment-configuration)
-10. [Sequence Diagrams](#sequence-diagrams)
-11. [Development Guidelines](#development-guidelines)
-
----
-
 ## 1. Overview
 
 The Cart Service is a stateful microservice responsible for managing a customer's shopping cart within an e-commerce system. It owns the cart aggregate and provides APIs to create carts, add, update, and remove items, and maintain cart lifecycle state for both anonymous and authenticated users.
